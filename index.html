@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="item header">Stone Paper Scissor</div>
+
+      <div class="item score">
+        <p class="playerScore"></p>
+        <p class="tie"></p>
+        <p class="computerScore"></p>
+      </div>
+
+      <div class="item game">
+        <div class="playArea">
+          <p class="playerName">Player</p>
+          <div class="selections">
+            <button class="userSelect btn stone">👊</button>
+            <button class="userSelect btn paper">✋</button>
+            <button class="userSelect btn scissor">✌️</button>
+          </div>
+          <p class="userChoiceText playerText"></p>
+        </div>
+
+        <div class="item reset">
+            <p class="result"></p>
+            <button class="resetBtn btn">Reset</button>
+        </div>
+
+        <div class="playArea">
+            <p class="playerName">Computer</p>
+            <p class="userSelect computerEmoji"></p>
+            <p class="userChoiceText computerChoiceText"></p>
+        </div>
+      </div>
+
+      <div class="item footer">©️ Made by Abhishek Yadav</div>
+
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
